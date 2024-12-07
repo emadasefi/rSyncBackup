@@ -30,7 +30,7 @@ LOG_DESTINATION="/mnt/storage/backup"
 CURRENT_DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 ```
 <br>
-<li><strong>Associative Array:</strong> SOURCE_SERVERS holds the mapping of source server details (user, IP, port, and path) to their respective passwords and local backup destinations.</li>
+<li><strong>Associative Array:</strong> SOURCE_SERVERS holds the mapping of source server details (<strong>user</strong>, <strong>IP</strong>, <strong>port</strong>, and <strong>path</strong>) to their respective passwords and local backup destinations.</li>
 <li><strong>Directories:</strong> ARCHIVE_BASE is where previous backups are stored, and LOG_DESTINATION is where log files are saved.</li>
 <li><strong>Current Date:</strong> The current date and time are captured for use in logging and archiving.</li>
 <br><br>
